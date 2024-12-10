@@ -2,7 +2,11 @@
 <index>
     <info>
         <name>Soulsmith</name>
+        <description>The Soulsmith class, a master of crafting and soul manipulation, designed for Aurora.</description>
+        <author url="https://github.com/Burigames">Burigames</author>
         <update version="1.0" />
-        <file name="Soulsmith.xml" url="https://github.com/Burigames/AuroraFiles/blob/main/Soulsmith.xml" />
     </info>
+    <files>
+        <file name="soulsmith.xml" url="https://raw.githubusercontent.com/Burigames/AuroraFiles/main/soulsmith.xml" />
+    </files>
 </index>
