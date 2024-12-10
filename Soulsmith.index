@@ -11,7 +11,6 @@
     <files>
         <file name="soulsmith-class.xml" url="https://raw.githubusercontent.com/Burigames/AuroraFiles/main/soulsmith-class.xml" />
         <file name="soulsmith-spells.xml" url="https://raw.githubusercontent.com/Burigames/AuroraFiles/main/soulsmith-spells.xml" />
-        <file name="soulsmith-items.xml" url="https://raw.githubusercontent.com/Burigames/AuroraFiles/main/soulsmith-items.xml" />
         <file name="soulsmith-features.xml" url="https://raw.githubusercontent.com/Burigames/AuroraFiles/main/soulsmith-features.xml" />
     </files>
 </index>
