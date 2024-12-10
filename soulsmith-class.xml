@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <element name="Soulsmith" type="Class" source="Homebrew: Soulsmith" id="ID_HOME_CLASS_SOULSMITH">
+        <description>
+            <p class="flavor">Masters of soul energy, Soulsmiths craft powerful items and empower their allies with buffs and debuffs.</p>
+        </description>
+        <setters>
+            <set name="hd" value="d8" />
+        </setters>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_SMITH_TOOLS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_TINKER_TOOLS" />
+            <grant type="Skill Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+            <grant type="Skill Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+        </rules>
+        <features>
+            <feature level="1" id="ID_HOME_CLASS_SOULSMITH_SOULCRAFT">Soulcraft</feature>
+            <feature level="1" id="ID_HOME_CLASS_SOULSMITH_SOUL_STORAGE">Soul Storage</feature>
+            <feature level="3" id="ID_HOME_CLASS_SOULSMITH_SOUL_INFUSION">Soul Infusion</feature>
+            <feature level="6" id="ID_HOME_CLASS_SOULSMITH_SOUL_BARRIER">Soul Barrier</feature>
+            <feature level="9" id="ID_HOME_CLASS_SOULSMITH_CURSE_WEAKNESS">Curse of Weakness</feature>
+            <feature level="11" id="ID_HOME_CLASS_SOULSMITH_SOUL_SPIRITS">Soul Spirits</feature>
+            <feature level="20" id="ID_HOME_CLASS_SOULSMITH_SOUL_ARSENAL">Soul Arsenal</feature>
+        </features>
+    </element>
+</elements>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <element name="Soulcraft" type="Class Feature" source="Homebrew: Soulsmith" id="ID_HOME_CLASS_SOULSMITH_SOULCRAFT">
+        <description>
+            <p class="flavor">Harness soul energy to craft temporary or permanent objects.</p>
+        </description>
+        <rules>
+            <stat name="Soul Points" value="2" />
+        </rules>
+    </element>
+
+    <element name="Soul Storage" type="Class Feature" source="Homebrew: Soulsmith" id="ID_HOME_CLASS_SOULSMITH_SOUL_STORAGE">
+        <description>
+            <p class="flavor">Store souls to fuel your abilities and creations.</p>
+        </description>
+        <rules>
+            <stat name="Soul Points:Max" value="CHA + Level" />
+        </rules>
+    </element>
+
+    <element name="Soul Arsenal" type="Class Feature" source="Homebrew: Soulsmith" id="ID_HOME_CLASS_SOULSMITH_SOUL_ARSENAL">
+        <description>
+            <p class="flavor">Summon a powerful arsenal to empower you and your allies for one decisive battle.</p>
+        </description>
+        <rules>
+            <grant type="Item" id="ID_HOME_ITEM_ESSENCE_STONE" />
+            <grant type="Item" id="ID_HOME_ITEM_SOUL_ARMOR" />
+        </rules>
+    </element>
+</elements>

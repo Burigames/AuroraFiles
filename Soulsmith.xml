@@ -1,42 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<elements>
-    <element name="Soulsmith" type="Class" source="Homebrew: Soulsmith" id="ID_HOME_SoulSmith_CLASS">
-        <description>
-            <p class="flavor">Masters of soul energy, Soulsmiths craft powerful items and empower their allies with buffs and debuffs.</p>
-        </description>
-        <setters>
-            <set name="hd" value="d8" />
-        </setters>
-        <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
-            <grant type="Skill Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
-            <grant type="Skill Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
-        </rules>
-    </element>
-    <element name="Soulcraft" type="Class Feature" source="Homebrew: Soulsmith" id="ID_HOME_SoulSmith_Soulcraft">
-        <description>
-            <p class="flavor">Allows you to craft temporary or permanent items using soul energy.</p>
-        </description>
-        <rules>
-            <stat name="Soul Points" value="2" />
-        </rules>
-    </element>
-    <element name="Soul Glyphs" type="Class Feature" source="Homebrew: Soulsmith" id="ID_HOME_SoulSmith_SoulGlyphs">
-        <description>
-            <p class="flavor">Create magical zones that act as traps, buffs, or debuffs in combat.</p>
-        </description>
-        <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
-        </rules>
-    </element>
-    <element name="Soul Arsenal" type="Class Feature" source="Homebrew: Soulsmith" id="ID_HOME_SoulSmith_SoulArsenal">
-        <description>
-            <p class="flavor">Summon a powerful arsenal to arm and shield your allies for a decisive battle.</p>
-        </description>
-        <rules>
-            <stat name="Soul Points" value="5" />
-        </rules>
-    </element>
-</elements>
+<index>
+    <info>
+        <name>Soulsmith</name>
+        <description>The Soulsmith class, masters of soulcraft, crafting, and support in combat with buffs and debuffs.</description>
+        <author url="https://github.com/Burigames">Burigames</author>
+        <update version="1.0">
+            <file name="soulsmith.index" url="https://raw.githubusercontent.com/Burigames/AuroraFiles/main/Soulsmith.index" />
+        </update>
+    </info>
+    <files>
+        <file name="soulsmith-class.xml" url="https://raw.githubusercontent.com/Burigames/AuroraFiles/main/soulsmith-class.xml" />
+        <file name="soulsmith-spells.xml" url="https://raw.githubusercontent.com/Burigames/AuroraFiles/main/soulsmith-spells.xml" />
+        <file name="soulsmith-items.xml" url="https://raw.githubusercontent.com/Burigames/AuroraFiles/main/soulsmith-items.xml" />
+        <file name="soulsmith-features.xml" url="https://raw.githubusercontent.com/Burigames/AuroraFiles/main/soulsmith-features.xml" />
+    </files>
+</index>

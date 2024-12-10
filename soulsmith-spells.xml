@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <element name="Glyph of Protection" type="Spell" source="Homebrew: Soulsmith" id="ID_HOME_SPELL_GLYPH_PROTECTION">
+        <description>
+            <p class="flavor">Creates a glyph that provides +1 AC and saving throws for allies in a 10-foot radius.</p>
+        </description>
+        <setters>
+            <set name="level" value="1" />
+            <set name="school" value="Abjuration" />
+            <set name="time" value="1 Bonus Action" />
+            <set name="duration" value="1 Minute" />
+            <set name="range" value="10 feet" />
+        </setters>
+    </element>
+
+    <element name="Glyph of Pain" type="Spell" source="Homebrew: Soulsmith" id="ID_HOME_SPELL_GLYPH_PAIN">
+        <description>
+            <p class="flavor">Creates a glyph that deals 1d8 necrotic damage per round to enemies in a 10-foot radius.</p>
+        </description>
+        <setters>
+            <set name="level" value="2" />
+            <set name="school" value="Necromancy" />
+            <set name="time" value="1 Bonus Action" />
+            <set name="duration" value="1 Minute" />
+            <set name="range" value="10 feet" />
+        </setters>
+    </element>
+</elements>
